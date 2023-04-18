@@ -1,0 +1,307 @@
+@font-face {
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    src: url("");
+}
+a {
+    text-decoration: none;
+}
+.nav-link {
+    border-right: 1px solid #757575;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.nav-link:hover {
+    background-color: #002147;
+}
+
+.in-nav {
+    color: #fff;
+    padding: none;
+    margin: none;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #2F72A8;
+    color: #fff;
+}
+
+.in-nav:hover {
+    background-color: #2F72A8;
+    color: #fff;
+
+}
+.para-corana{
+    color: #aaa !important;
+    cursor: pointer !important;
+}
+.para-corana:hover {
+    color: #fff !important;
+}
+.text-black {
+    /* color: #2F72A8; */
+    color: #000;
+    font-size: 14px;
+}
+/************************************************* carousel******************************* */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f8f8f8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236c757d' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); 
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 80px;
+    height: 45px;
+    color: #757575;
+    position: absolute;
+}
+.head-carousel {
+    font-weight: bold;
+    /* font-size: 120px; */
+    color: #fff;
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    text-align: left;
+    font-size: 3.313em;
+    line-height: 1.5em;
+    padding-top: 1.5em;
+    /* border-bottom: 1px solid #e0ded9; */
+    margin-top: 1.5em;
+    overflow-wrap: break-word;
+    margin-right: 18%
+}
+.para-carousel {
+    text-align:left ;
+    font-size: 20px;
+    color: #fff;
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+#linear-gradient {
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    height: 35%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.22) 17%,
+      rgba(0, 0, 0, 0.75) 57%,
+      rgba(0, 0, 0, 0.75) 88%,
+      rgba(0, 0, 0, 0.75) 100%
+    );
+  }
+  /* .carousel-caption {
+  } */
+  h5 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h2 {
+    float: left;
+    margin-bottom: 0.25em;
+    padding-right: 0.4em;
+  }
+  .text {
+    font-weight: bold;
+    font-size: 1.313em;
+  }
+  .date-calender-date,
+  .date-calender-month {
+    background: #002147;
+    color: #fff;
+    line-height: 1;
+    margin-top: 5px;
+    margin-right: 1em;
+    padding: 0.25em 0.5em;
+    text-align: center;
+    width: 2.75em;
+    cursor: pointer;
+  }
+
+
+/* ***************************************NEWS****************************************************** */
+.news-img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.news-para {
+    font-size: 18px;
+    font-family: "PT Serif",Georgia,'Times New Roman',serif;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.news-img:hover {
+    opacity: 0.7;
+}
+.news-para:hover {
+    color: #9A2A2A;
+    cursor: pointer;
+}
+.event-head {
+    font-size: 16px;
+    font-family: "PT Serif",Georgia,'Times New Roman',serif;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.event-head:hover {
+    color: #9A2A2A;
+}
+.event-para {
+    font-size: 12px;
+}
+img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+img:hover {
+    opacity: 0.4;
+}
+.jun_1{
+    color: #fff; 
+    background-color:#001c3d; 
+    height: 45px;
+    width: 100px;
+    font-size: 12px;
+}
+.jun_2{
+    color: #fff; 
+    background-color:#001c3d; 
+    height: 50px;
+    width: 145px;
+    font-size: 12px;
+}
+.jun_span{
+    font-size: 18px;
+}
+/************************************* discover **************************************** */
+.card-1 {
+    background-color:  #e0ded9;
+}
+.carousel-head {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 0 0.5em 0;
+    line-height: 1.2em;
+    color: #000;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+.carousel-para {
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+}
+.carousel-head:hover {
+    color: #9A2A2A;
+}
+
+/******************************************** STUDYING AT OXFORD ************************************ */
+
+.oxford_class {
+    height: 300px;
+    text-align: left;
+    padding-bottom: 0px;
+    font-size: 32px;
+    font-family: open sans!important;
+    padding-top: 240px;
+    border: 1px solid #aaa;
+}
+.oxford_class:hover{
+    opacity: 0.7;
+}
+#oxford1{
+    background-image: url("https://www.ox.ac.uk/sites/files/oxford/st_ox_undergrad2.jpg");
+}
+#oxford2{
+    background-image: url("https://www.ox.ac.uk/sites/files/oxford/st_ox_grad3.jpg");
+}
+#oxford3{
+    background-image: url("https://www.ox.ac.uk/sites/files/oxford/st_ox_conted2.jpg");
+}
+#oxford4{
+    background-image: url("https://www.ox.ac.uk/sites/files/oxford/st_ox_current4.jpg");
+}
+.study_head{
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+    background: rgba(247, 249, 247, 0.3); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.study_head:hover {
+    color: #a82a2a;
+}
+.fa-solid {
+    color: rgb(24, 23, 23);
+    font-size: 28px;
+    padding-top: 5px;
+}
+.fa-solid:hover{
+    color: #757575;
+}
+
+/******************************************** footer social media  *******************************/
+.footer-head {
+    font-weight: 100;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.footer-heading {
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.small-span {
+    color: #aaa;
+    cursor: pointer;
+}
+.small-span:hover {
+    color:#fff;
+}
+
+.foot-span {
+    color: #fff;
+    cursor: pointer;
+}
+/* .foot-span:hover {
+    color: #fff;
+} */
+.btn:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+/* #info_border{
+    border-left: 1px solid rgb(85, 78, 78);
+} */

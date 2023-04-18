@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HappyEasygo</title>
+  <link rel="stylesheet" href="/Assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Template/HappyEasygo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body bg-light">
+  <!-- ************************************* nav-bar ************************************-->
+  <nav class="navbar navbar-expand-lg  p-0 pt-2 pb-2">
+    <div class="container-fluid">
+      <img class="logo-img ps-5" src="https://hotelstatic.happyeasygo.com/ForFront/pc/logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-align-justify"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-md-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-flights">
+            <a class="nav-link" aria-current="page" href="#">Flights</a>
+          </li>
+          <li class="nav-flights">
+            <a class="nav-link" href="#">Hotels</a>
+          </li>
+
+          <li class="nav-flights">
+            <a class="nav-link me-5" href="#">Offers</a>
+          </li>
+          <li class="nav-in  pt-3 ps-5 pe-3">
+            <a class="nav-check-in">
+              <i class="fa-solid fa-calendar-check ps-5 "></i>
+              Web Check In
+            </a>
+          </li>
+          <li class="nav-flight pt-2">
+            <a class="nav-link agent">
+              <div class="agent d-flex">
+                <span class="logo"><i class="fas fa-award award-logo pe-2 pt-2"></i></span>
+                <span class="span-agent ps-0 ms-0">
+                  <div class="agent-para">
+                    Agent Programme
+                  </div>
+                  <div class="save-para">Save you a lot of money</div>
+                </span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link">
+              <img class="rupee pt-1" src="/Assets/rupees.jpeg" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="nav-link">
+              <img class="wallet mt-1" src="/Assets/wallet.jpeg" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="nav-link pe-3">
+              <i class="fa-solid fa-headset px-2 pt-2"></i>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link-2">
+              <div class="dropdown">
+                <a class="btn  dropdown-toggle manage-trip mt-2 ps-4" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Manage Trip
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">My Trips</a></li>
+                  <li><a class="dropdown-item" href="#">Print Ticket</a></li>
+                  <li><a class="dropdown-item" href="#">Web Check In
+                      <span class="new">New</span>
+                    </a></li>
+                </ul>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link">
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-success sign-in" type="submit">Sign In</button>
+              </form>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- ************************************ golden temple*******************************-->
+  <div class="container-fluid bg-light pb-4">
+    <div class="golden_temple">
+      <h4 class="gold_head text-center">Book Flights & Hotels Online</h4>
+      <div class="container  pb-3">
+        <div class="span-bar p-0 m-0">
+          <span class="hotel-span m-0 p-0  ps-3  bg-white pb-1 pe-4 mb-0">
+            <i class="fa-solid fa-plane"></i>Flights
+          </span>
+          <span class="hotel-span2 m-0 pt-1 pb-1">Hotels</span>
+        </div>
+        <div class="hotel bg-white mb-0 pb-0" id="golden-id">
+          <div class="flight-main pt-4 ps-2 mb-0">
+            <div class="one-way">
+              <span class="round-span p-1">
+                <span class="one-span p-0 ps-3 pe-3">One Way </span>
+                <span class="two-span ps-3 pe-3">Round Trip</span>
+              </span>
+            </div>
+          </div>
+          <div class="row  ps-3 pe-3 mt-0 ms-2 me-2 ">
+            <div class="col-12 col-md-8">
+              <div class="row">
+                <div class="col-12 ps-0">
+                  <div class="row">
+                    <div class="col-6 pt-3">
+                      <div class="book bg-light ps-3">
+                        <p class="trip-para1">From</p>
+                        <h6 class="trip-para2 pb-0 mb-0">Delhi</h6>
+                        <p class="trip-para3 pb-1">DEL, India Gandhi Int"l Airport</p>
+                      </div>
+                    </div>
+                    <!-- <div class="col-2">
+                    <i class="fa-solid fa-circle-arrow-right"></i>                    
+                  </div> -->
+                    <div class="col-6 ps-0 pt-3">
+                      <div class="book bg-light ps-3">
+                        <p class="trip-para1">To</p>
+                        <h6 class="trip-para2 pb-0 mb-0">Mumbai</h6>
+                        <p class="trip-para3 pb-1">BOM, Chhatrapati Shivaji Int"l Airport</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 ms-0 ps-0">
+              <div class="row">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-6 pt-3">
+                      <div class="date-book bg-light ps-3">
+                        <p class="date-para">From Date</p>
+                        <h6 class="date-head pb-0 mb-0">22 Aug</h6>
+                        <p class="date-para2 pb-1">Monday, 2022</p>
+                      </div>
+                    </div>
+                    <div class="col-6 ms-0 ps-0 pt-3">
+                      <div class="date-book bg-light ps-3">
+                        <p class="date-para">Return Date</p>
+                        <p class="date-head2 pb-4">Select Date</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row ps-1 pb-3 mt-0 ms-2 me-4">
+            <div class="col-8 col-md-8 pt-3 d-flex">
+              <div class="travel-Eco">
+                <span class="travel-btn bg-light p-2 me-2">1 Traveller
+                  <i class="fa-solid fa-chevron-down"></i>
+                </span>
+              </div>
+              <div class="travel-Eco">
+                <span class="travel-btn bg-light p-2">Economy
+                  <i class="fa-solid fa-chevron-down"></i>
+                </span>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-2">
+              <div class="btn-div text-center">
+                <button class="btn-search text-center pt-2 pb-2">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--***************************************** carousel bar ****************************-->
+  <div class="container-fluid">
+    <div class="container">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2022/08/13/freedom-sale_1090x168.jpg?x"
+              class="d-block w-100 h-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2021/10/14/a855a1cdd33e44b9b73865bc104aacaf.jpg"
+              class="d-block w-100 h-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2022/06/09/early-monsoon-sale.jpg"
+              class="d-block w-100 h-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2022/06/09/early-monsoon-sale.jpg"
+              class="d-block w-100 h-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2022/08/18/989f5a6e13bd4ec2b0411bb7a1750f07.png"
+              class="d-block w-100 h-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--*********************** best price guranted ****************************************-->
+  <div class="container-fluid pt-3 pb-3 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-6 pe-2 ps-0 pt-2">
+          <img class="best-1"
+            src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2021/11/16/6b3c3642133d486da50930273a988908.png"
+            alt="">
+        </div>
+        <div class="col-6 col-md-6 ps-2 pe-0 pt-2">
+          <img class="best-2"
+            src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2021/10/21/f40b96e293f54b4baaac1ebc104ffd5c.png"
+            alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--*************************** Best Flight Deals **************************************-->
+  <div class="container-fluid pt-4">
+    <div class="container bg-white">
+      <h4 class="travel-1 pe-5">Best Flight Deals</h4>
+      <div class="best-flights ms-3 me-3 bg-light">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Delhi</p>
+                    <p class="para-flight2 ps-3">Mumbai</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 5,552</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Delhi</p>
+                    <p class="para-flight2 ps-3">Bangalore/Ben..</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 7,520</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Bangalore/Ben..</p>
+                    <p class="para-flight2 ps-3">Delhi</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 7,280</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Bangalore/Ben..</p>
+                    <p class="para-flight2 ps-3">Kolkata</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 7,023</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Kolkata</p>
+                    <p class="para-flight2 ps-3">Bangalore/Ben..</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 8,730</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 30 Aug</p>
+                    <p class="para-flight ps-3">Mumbai</p>
+                    <p class="para-flight2 ps-3">Delhi</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 7,389</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Pune</p>
+                    <p class="para-flight2 ps-3">Mumbai</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 5,552</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Mumbai</p>
+                    <p class="para-flight2 ps-3">Pune</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 5,552</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 28 Aug</p>
+                    <p class="para-flight ps-3">Delhi</p>
+                    <p class="para-flight2 ps-3">Goa</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 7,023</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Mon, 29 Aug</p>
+                    <p class="para-flight ps-3">Goa</p>
+                    <p class="para-flight2 ps-3">Delhi</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 7,023</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 25 Aug</p>
+                    <p class="para-flight ps-3">Delhi</p>
+                    <p class="para-flight2 ps-3">Hyderabad</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 5,966</h6>
+                  </div>
+                </div>
+                <div class="col-6 col-md-2">
+                  <div class="flight ps-2 pb-2 mt-2 mb-2">
+                    <p class="date-para pt-3">Thu, 26 Aug</p>
+                    <p class="para-flight ps-3">Hyderabad</p>
+                    <p class="para-flight2 ps-3">Delhi</p>
+                    <p class="from p-0 m-0">Starting from</p>
+                    <h6 class="money">₹ 5,966</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--*************************** Travel Blog ********************************************-->
+  <div class="container-fluid pt-4 pb-4">
+    <div class="container bg-white pt-4">
+      <h4 class="travel-blog ps-3">Travel Blog</h4>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ps-4 pe-4">
+          <div class="carousel-item active">
+            <div class="travel-visit">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <div class="travel-div">
+                    <img class="travel-img"
+                      src="https://travel-blog.happyeasygo.com/wp-content/uploads/2022/08/Independence-day.png?from=www"
+                      alt="">
+                    <p class="travel-para ps-3 pt-2">8 Places To Visit This Independence Day To Experience Patriotism
+                    </p>
+                    <p class="travel-para2 ps-3 pb-2">05 Aug, 2022</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="travel-div">
+                    <img class="travel-img"
+                      src="https://travel-blog.happyeasygo.com/wp-content/uploads/2022/02/Hill-Station.png?from=www"
+                      alt="">
+                    <p class="travel-para ps-3 pt-2">14 Best Hill Stations near Delhi to Unwind and
+                      Chill</p>
+                    <p class="travel-para2 ps-3 pb-2">03 Aug, 2022</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="travel-div">
+                    <img class="travel-img"
+                      src="https://travel-blog.happyeasygo.com/wp-content/uploads/2022/07/Teej-festival-2.png?from=www"
+                      alt="">
+                    <p class="travel-para ps-3 pt-2">Places to Explore Culture During Teej Festival 2022 Celebrations
+                    </p>
+                    <p class="travel-para2 ps-3 pb-2">27 Jul, 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="travel-visit">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <div class="travel-div">
+                    <img class="travel-img"
+                      src="https://travel-blog.happyeasygo.com/wp-content/uploads/2022/07/1-1.png?from=www" alt="">
+                    <p class="travel-para ps-3 pt-2">8 Monsoon Dishes To Try Out This Season
+                      8 Monsoon Dishes To Try Out This Season</p>
+                    <p class="travel-para2 ps-3 pb-2">17 Jul, 2022</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="travel-div">
+                    <img class="travel-img"
+                      src="https://travel-blog.happyeasygo.com/wp-content/uploads/2019/07/Diu.jpg?from=www" alt="">
+                    <p class="travel-para ps-3 pt-2">Best Places to visit in August in India
+                    </p>
+                    <p class="travel-para2 ps-3 pb-2  pt-4">13 Jul, 2022</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="travel-div">
+                    <img class="travel-img"
+                      src="https://travel-blog.happyeasygo.com/wp-content/uploads/2019/06/Kodaikanal-Tamil-Nadu.jpg?from=www"
+                      alt="">
+                    <p class="travel-para ps-3 pt-2">Best Places to Visit in India in July 2022
+                    </p>
+                    <p class="travel-para2 ps-3 pb-2  pt-4">03 Jul, 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!--*************************** Mobile App customers***********************************-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <img
+          src="https://img.happyeasygo.com/oss/ossuploadfile/advertising/2021/10/21/ab3af5643a7d424290e267f81a9af5ed.jpg"
+          alt="" class="mobile-app w-100 h-100">
+      </div>
+    </div>
+  </div>
+  <!--********************************** Sign up for Exclusive ************************ -->
+  <div class="container pt-2 pb-3">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="sign-up pt-4">
+          <h6 class="sign-up-head">Sign up for Exclusive Email-only Coupons</h6>
+          <p class="sign-up-para">Exclusive access to coupons, special offers and promotions.</p>
+        </div>
+      </div>
+      <div class="col-2"></div>
+      <div class="col-12 col-md-4 pt-4">
+        <div class="sign-mail p-2">Enter your e-mail address <button class="mail-btn p-2 ">Send me Deals</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--********************************* About HappyEasyGo ******************************-->
+  <div class="container-fluid" style="background-color: rgb(230, 226, 226);">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 pt-4">
+          <h4 class="feedback-head pt-1 pb-1">About HappyEasyGo</h4>
+          <p class="feedback-para">HappyEasyGo was launched in 2017 to make online travel bookings hassle-free and
+            affordable for everyone. We have emerged as one of the fastest growing flight and hotel booking platforms in
+            India, with thousands of business and leisure travellers planning their journeys with us every day. We are
+            passionate about travel and leave no stone unturned to offer an unsurpassed booking experience to our
+            customers. We can help you score the biggest deals on your next business trip or holiday. Know more.</p>
+
+          <h4 class="feedback-head ps-1 pb-1">Book Cheap Flights and Hotels</h4>
+          <p class="feedback-para">Have you been searching for the best cheap flight and hotel booking website but all
+            your efforts have been in vain? Look no further as HappyEasyGo helps you enjoy the biggest savings every
+            time you hit the road. We have the best discounts on domestic as well as international flight tickets. No
+            matter which airline you wish to travel with, IndiGo, SpiceJet, Go First, Air India, Vistara or any other,
+            book with us to save money like never before. Take your savings a notch higher with our unbeatable hotel
+            room deals. A gamut of properties, ranging from budget to luxury, helps you find the ideal accommodation
+            option for you. Visit the offer page right now to check out the best coupon discounts available for you.</p>
+
+          <h4 class="feedback-head ps-1 pb-1">Benefits of Booking Air Tickets and Hotels on HappyEasyGo</h4>
+          <p class="feedback-para">HappyEasyGo is among the leading cheap flight booking websites in India. We not only
+            have the best prices, but also strive to ensure a pleasing booking experience. Avail our free flight
+            cancellation and rescheduling options to stay clear of any worries about change in travel plans. We also
+            guarantee you the lowest domestic airfares and promise to pay a triple refund if you can prove us wrong. We
+            have thousands of hotels, resorts, homestays and villas so you can effortlessly find the perfect
+            accommodation for your holiday or business trip. You can browse through the images to learn about the room
+            and hotel amenities before you book.</p>
+
+          <h4 class="feedback-head ps-1 pb-1">Book on the Go with HappyEasyGo Travel App</h4>
+          <p class="feedback-para">HappyEasyGo travel app makes air ticket and hotel booking easier than ever before.
+            Our app helps you plan, search, compare and book on the go without any inconvenience. You can download the
+            HappyEasyGo application on your Android or iOS device for free from Google Play Store and Apple App Store.
+            Download right now and unveil the best travel deals available for you online. Moreover, you can also refer
+            and earn money to save on your next adventure.</p>
+        </div>
+        <div class="col-12 pt-2 pb-2">
+          <h5 class="head-faq pb-2">HappyEasyGo – FAQs</h5>
+          <h6 class="head-faq2 mb-0">What is the best time to book flights and hotels?</h6>
+          <p class="para-faq p-0">Book your flight tickets six to eight weeks in advance to score the best price. Hotel
+            rates are typically lowest when you book about four weeks prior to your travel date.</p>
+          <h6 class="head-faq2 mb-0">Where can I download the HappyEasyGo app?</h6>
+          <p class="para-faq">HappyEasyGo app is available for free on Apple App Store (iOS users) and Google Play Store
+            (Android users).</p>
+          <h6 class="head-faq2 mb-0">What are the available payment options?</h6>
+          <p class="para-faq">You can pay for your flight ticket and hotel booking using any debit or credit card. Other
+            payment options such as Amazon Pay, MobiKwik, OlaMoney and more are also available.</p>
+          <h6 class="head-faq2 mb-0">What is Lowest Airfare Guarantee?</h6>
+          <p class="para-faq">HappyEasyGo guarantees you the lowest airfare for domestic flight bookings. If you can
+            find a better deal anywhere else, we will pay you triple the airfare difference. Know more.</p>
+          <h6 class="head-faq2 mb-0">Where do I find flight and hotel offers?</h6>
+          <p class="para-faq">You can find the latest flight and hotel deals on our offer page.
+          </p>
+          <h6 class="head-faq2 mb-0">How do I connect with HappyEasyGo customer support?</h6>
+          <p class="para-faq">You can write to us at cs@happyeasygo.com, or call 0124-607-9960 / 0124-360-3026. You can
+            also find information on our support page.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--**************************************** footer part  *****************************-->
+  <div class="container-fluid bg-dark pt-2 pb-5">
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <div class="row">
+          <div class="col-6 col-md-2">
+            <h5 class="footer-head pt-4 pb-2">OUR PRODUCTS</h5>
+            <p class="foot-para1 pb-1">Online Flight Booking</p>
+            <p class="foot-para1 pb-1">Online Hotel Booking</p>
+            <p class="foot-para1 pb-1">Domestic Airlines</p>
+            <p class="foot-para1 pb-1">Top Airline Routes</p>
+            <p class="foot-para1 pb-1">Partner Programs</p>
+          </div>
+          <div class="col-6 col-md-2">
+            <h5 class="footer-head pt-4 pb-2">CORPORATE</h5>
+            <p class="foot-para1 pb-1">FAQs</p>
+            <p class="foot-para1 pb-1">Terms & Conditions</p>
+            <p class="foot-para1 pb-1">Privacy</p>
+            <p class="foot-para1 pb-1">About Us</p>
+            <p class="foot-para1 pb-1">Contact Us</p>
+            <p class="foot-para1 pb-1">Careers</p>
+            <p class="foot-para1 pb-1">Blog</p>
+          </div>
+          <div class="col-6 col-md-2">
+            <h5 class="footer-head pt-4 pb-2">HOT AIRLINES</h5>
+            <p class="foot-para1 pb-1">IndiGo</p>
+            <p class="foot-para1 pb-1">Go First</p>
+            <p class="foot-para1 pb-1">SpiceJet</p>
+            <p class="foot-para1 pb-1">AirAsia</p>
+            <p class="foot-para1 pb-1">Vistara</p>
+            <p class="foot-para1 pb-1">Air India</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h5 class="footer-head pt-4 pb-2">HOT FLIGHT ROUTES</h5>
+            <p class="foot-para1 pb-1">Mumbai to Delhi Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Mumbai Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Bangalore Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Kolkata Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Hyderabad Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Chennai Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Pune Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Ahmedabad Flights</p>
+            <p class="foot-para1 pb-1">Delhi to Patna Flights</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h5 class="footer-head pt-4 pb-2">POPULAR HOTEL DESTINATION</h5>
+            <p class="foot-para1 pb-1">Hotels in Delhi</p>
+            <p class="foot-para1 pb-1">Hotels in Mumbai</p>
+            <p class="foot-para1 pb-1">Hotels in Bangalore</p>
+            <p class="foot-para1 pb-1">Hotels in Chennai</p>
+            <p class="foot-para1 pb-1">Hotels in Kolkata</p>
+            <p class="foot-para1 pb-1">Hotels in Hyderabad</p>
+            <p class="foot-para1 pb-1">Hotels in Goa</p>
+            <p class="foot-para1 pb-1">Hotels in Pune</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <h5 class="footer-head pt-4 pb-2">PAYMENT & SECURITY</h5>
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/visa.png" alt="" class="foot-img">
+              </div>
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/mastercard.png" alt="" class="foot-img">
+              </div>
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/diners.png" alt="" class="foot-img">
+              </div>
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/american.png" alt="" class="foot-img">
+              </div>
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/jcb.png" alt="" class="foot-img">
+              </div>
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/hdfc.png" alt="" class="foot-img">
+              </div>
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/phone.png" alt="" class="foot-img w-50">
+              </div>
+              <div class="col-3 p-3">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/paypal.png" alt="" class="foot-img">
+              </div>
+            </div>
+          </div>
+          <h5 class="footer-head pt-2 pb-2">Follow Us</h5>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-2">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/facebook-logo-button.svg" alt="" class="social-img">
+              </div>
+              <div class="col-2">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/twitter-logo-button.svg" alt="" class="social-img">
+              </div>
+              <div class="col-2">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/instagram-logo.svg" alt="" class="social-img">
+              </div>
+              <div class="col-2">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/youtube.svg" alt="" class="social-img">
+              </div>
+              <div class="col-2">
+                <img src="https://img.happyeasygo.com/hstatic/imgs/linkedin.svg" alt="" class="social-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--**************************************** footer part2 *****************************-->
+  <div class="container-fluid text-center" style="background-color: #007c5b;">
+    <div class="copy pt-3 pb-3">
+      <p class="copyright p-3">Copyright © 2016-2022 Happyeasygo Group. All rights reserved <br />
+        All brands, logos are trademarks or registered trademarks of their respective owners</p>
+    </div>
+  </div>
+  <script src="/Assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,421 @@
+/* -------------------------------header----------------------------------------- */
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: whitesmoke;
+  border-bottom: 5px solid white;
+}
+.logo-img {
+  width: 100%;
+  height: auto;
+}
+.select{
+  border: 2px solid #000;
+    transition: 1s;
+    width: 100%;
+    height: 75%;
+    margin: 8px 5px;
+}
+.search-bar {
+  border: 2px solid #000;
+  transition: 0s;
+  width: 100%;
+  height: 75%;
+  margin: 8px 5px;
+  font-size: 17px;
+  padding-left: 20px;
+}
+.input-group {
+  border: 2px solid #000;
+    transition: 0s;
+    width: 100%;
+    height: 75%;
+    margin: 8px 5px;
+    font-size: 17px;
+}
+.lang {
+  border: none;
+  margin: 8px 5px;
+  font-weight: bold;
+  width: 100px;
+  border: none;
+  background-color: whitesmoke;
+  text-decoration: none;
+  
+}
+.lang:hover {
+  text-decoration: none;
+}
+.log-in {
+  font-family: sans-serif;
+  font-size: 17px;
+  margin: 20px 10px 5px 20px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: 2px solid underline;
+}
+.log-in:hover {
+  text-decoration: none;
+  color: #000;
+}
+.sell {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-top: 5px solid cyan;
+  border-left: 5px solid yellow;
+  border-right: 5px solid rgb(49, 107, 243);
+  border-bottom: 5px solid cyan;
+  border-radius: 100px;
+ padding: none;
+}
+.sell:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/*** nav-bar part start *** */
+
+
+.navbar-brand {
+  border: none;
+  font-family: sans-serif;
+  color: #002f34;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar-brand:hover {
+  color: #002f34;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #757575;
+  font-size: 14px;
+}
+.nav-link:hover {
+  color: #002f34;
+}
+.lang-1{
+  background-color: #fff;
+  width: 170px;
+  font-weight: bold;
+  border: none;
+  margin: 8px 5px;
+  text-decoration: none;
+}
+
+/*** full image part-------------------------------------- **** */
+.img-nav {
+  background-image: url("/Assets/olx-adv-car-1.png");
+  width: 100%;
+  height: 135px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  
+}
+.btn-sell-car {
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 40px 20px 55px 800px;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(9, 37, 45);
+  position: absolute;
+}
+
+.nav-olx {
+  content: "";
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.adv-img {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid #000; */
+}
+/********************* last search ******************************/
+.last-search {
+  justify-content: space-between;
+}
+.fresh-1 {
+  color: #000;
+  font-family: sans-serif;  
+  font-size: 26px;
+}
+.search-span {
+  cursor: pointer;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-decoration: underline solid 2px;
+}
+.search-span:hover{
+  color: #000;
+  text-decoration: none;
+}
+.search-img {
+  text-align: center;
+}
+/* .date-span {
+  
+} */
+/********************* fresh recommedation******************************/
+/* one seperate div bg-color-blue style */
+.fresh {
+  font-size: 26px;
+  font-family: sans-serif;
+  color: #000;
+  padding-top: 16px;
+}
+.item-blue {
+  text-align: center;
+  max-width: 100%;
+  height: 100%;
+  background-color: #3a77ff;
+  border-radius: 4px;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+.blue-head {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.blue-para {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.button {
+  padding-top: 60px;
+  width: 100%;
+  height: auto; 
+}
+.button-1 {
+  width: 80%;
+  height: auto;
+  border: 2px solid #FFF;
+  background-color: #3a77ff;
+  border-radius: 4px;
+  color: #fff;
+  border-color: #fff;
+  background-color: initial;
+  cursor: pointer;
+}
+.button-1:hover {
+  border: 5px solid #fff;
+}
+.item {
+  border: 1px solid #0e040533;
+  border-radius: 4px;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #002f34a3;
+  cursor: pointer;
+  /* margin: 8px; */
+}
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #002f34;
+  margin: 5px 0;
+  position: relative;
+  z-index: 2;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+
+}
+h5 {
+  font-size: 10px;
+  color: #757575;
+  position: relative;
+  z-index: 2;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+p {
+  font-size: 14px;
+  color: #757575;
+  position: relative;
+  z-index: 2;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+span {
+  font-size: 8px;
+  color: #757575;
+  position: relative;
+  z-index: 2;
+  font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+.item-address {
+  display: flex;
+  justify-content: space-between;
+  color: #002f34a3;
+  font-size: 10px;
+  /* font-size: 0.65em; */
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.item figure {
+  height: 160px;
+  margin-top: 5px;
+  /* margin-left: 10px */  
+}
+
+.item figure img {
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.home-img {
+  width: 80%;
+  height: 80%;
+}
+.wrapper {
+  border-left: 5px solid #ffce32;
+  padding: 0 10px 10px;
+}
+
+.wrapper-1 {
+  padding: 0 10px 10px;
+
+}
+
+.item h3,
+.item h5 {
+  margin: 0;
+}
+
+
+
+.featured {
+  background-color: #ffce32;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #000;
+}
+
+.hearts {
+  position: absolute;
+  right: 8px;
+  top: 2px;
+  font-size: 22px;
+  color: #000;
+  
+}
+
+
+
+/************************ button ******************** */
+.center-button {
+  text-align: center;
+  padding-top: 50px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.load-more {
+  border-radius: 4px;
+  border: 2px solid #002f34;
+  padding: 0 10px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.load-more:hover {
+  border: 4px solid #002f34;
+}
+
+/****************** footer part of olx ********************************  */
+.footer-heading {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  color: #002f34;
+}
+
+.footer-head {
+  color: #002f34;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.footer-heading2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  color: #002f34;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-footer1 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #002f34;
+}
+
+.span-1 {
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  /* color: #002f34; */
+  color: rgba(0, 47, 52, .64);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.span-1:hover {
+  color: #002f34;
+}
+
+.country {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.span-ind {
+  font-size: 14px;
+}
+
+.fab{
+  border: 1px solid #aaa;
+  border-radius: 100%;
+}

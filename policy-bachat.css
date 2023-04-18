@@ -1,0 +1,550 @@
+/********************** navigation *********************** */
+.logo-row {
+  display: flex;
+  justify-content: space-between;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.logo {
+  width: 120px;
+  height: auto;
+}
+/******************* formtable *************/
+.webpage-heading {
+  color: #fff;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.webpage-heading-2 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 10px;
+  padding-top: 2px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.start-1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bolder;
+}
+.by-para {
+  font-size: 11px;
+}
+.form {
+  justify-content: space-around;
+  cursor: pointer;
+}
+.active {
+  color: #009688;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.car {
+  color: #333;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 18px;
+}
+.car:hover {
+  color: #757575;
+}
+.car-title {
+  text-align: center;
+  color: #5f2ee5;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.click-ancher {
+  text-decoration: none;
+  color: #009688;
+}
+
+.list {
+  justify-content: space-around;
+}
+
+.list-123 {
+  border: 1px solid gray;
+}
+
+.start-box-1 {
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  max-width: 440px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.submit {
+  background-color: #009688;
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  padding: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-align: center;
+}
+.form-select {
+  cursor: pointer;
+}
+.star {
+  padding-left: 5px;
+}
+.star-paragraph {
+  display: flex;
+  justify-content: space-between;
+}
+.terms {
+  color: #009688;
+  cursor: pointer;
+}
+.star-img {
+  width: 15px;
+  height: auto;
+}
+.car-logo {
+  width: 100%;
+  height: auto;
+}
+/******************* Insurance company div  *************************/
+.Top-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: #212121;
+}
+.life-log {
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding-bottom: 10px;
+}
+
+/**************************** policy bachat work  **************************/
+.heading-works {
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.compare,
+.pick,
+.buy {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  max-width: 350x;
+  height: 130px;
+}
+.compare-1,
+.pick-1,
+.buy-1 {
+  text-align: center;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.compare-2,
+.pick-2,
+.buy-2 {
+  text-align: left;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+/********************************* benefit of comparing with policyBachat **************** */
+.money,
+.time,
+.peace {
+  max-width: 350x;
+  height: 130px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.money-1,
+.time-1,
+.peace-1 {
+  text-align: center;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.money-2,
+.time-2,
+.peace-2 {
+  text-align: center;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  text-align: left;
+}
+/************************** Reviews & Overall Rating ******************* */
+.review {
+  text-align: center;
+  color: #333;
+}
+.rating-para {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+.review-para {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 17px;
+  line-height: 1.42857143;
+}
+.review-head {
+  font-size: 17px;
+}
+.img-svg {
+  width: 80px;
+}
+.star-svg {
+  font-family: "Roboto", sans-serif;
+}
+
+/*************** feedback of viewer(four div in row) ***************** */
+.feedback {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 1px 1px 1px 1px #c0c0c0;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.feed-heading {
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #757575;
+}
+.feed-heading2 {
+  font-weight: 700;
+  text-align: left;
+  color: #333;
+}
+.feed-heading3 {
+  text-align: left;
+  font-size: 15px;
+  color: #757575;
+}
+.img-feed {
+  width: 15px;
+  height: auto;
+}
+
+/**************************** Frequently Asked Questions************************* */
+.question-para {
+  text-align: center;
+  font-weight: 800;
+  font-size: 34px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.para-head {
+  font-weight: 600;
+  color: #212121;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.para-policy {
+  font-size: 16px;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
+
+/******************************************** Article of the week ******************************** */
+
+.para-article {
+  text-align: center;
+}
+.img-article {
+  width: 100%;
+  height: auto;
+}
+.article {
+  color: #009688;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.para-article1,
+.para-article2 {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  font-size: 18px;
+}
+.para-article2 {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-size: 18px;
+}
+
+/* **************************** Your Source and complete guide to Insurance**********************************  */
+.text-center {
+  /* padding: 30px; */
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+.box-img {
+  width: 100%;
+  height: auto;
+}
+.box-first {
+  border: 1px solid #c0c0c0;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px 1px #c0c0c0;
+  border-radius: 2px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.box-para {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  padding: 20px;
+  /* padding-bottom: 55px; */
+}
+
+/**************************************** Coronavirus (COVID-19) Health Insurance ***************************** */
+.covid-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+.dark-img {
+  width: 100%;
+  height: auto;
+}
+
+/****************************** Start Saving Money on Insurance Policy *****************************************/
+.saving-heading {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+}
+.saving-heading2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+.saving-money {
+  padding: 15px;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  max-width: 450px;
+  margin: auto;
+}
+.compare-car {
+  text-align: center;
+  color: #5f2ee5;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.compare-money {
+  background-color: #009688;
+  border: #009688;
+  border: 2px;
+  border-radius: 5px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.compare-head {
+  font-size: large;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.para-2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.para-3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.para-2:hover {
+  color: #fff;
+}
+.para-3 :hover {
+  color: #fff;
+}
+.city,
+.state {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.city-1 {
+  font-size: 14px;
+  padding: 5px;
+}
+.state-2 {
+  font-size: 14px;
+  padding: 5px;
+}
+.city-1:hover {
+  color: #fff;
+}
+.state-1:hover {
+  color: #fff;
+}
+.state-2:hover {
+  color: #fff;
+}
+
+/*********************************************** footer part of webpage ******************************************** */
+.footer {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+}
+.footer-head {
+  font-size: 16px;
+  font-weight: bold;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+}
+.footer-1 {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.footer-span1::before {
+  content: "\e062";
+}
+.footer-span:hover {
+  color: #009688;
+}
+/*********************************************** second part of footer ********************************************* */
+.alphates {
+  box-sizing: border-box;
+  border: 5px solid #757575;
+}
+.alpha {
+  color: #757575;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+.alpha:hover {
+  color: #009688;
+}
+
+.payment {
+  max-width: 250px;
+  margin: auto;
+}
+.pay-img2 {
+  width: 35px;
+}
+.pay-img3 {
+  width: 250px;
+}
+
+.privacy {
+  text-align: center;
+  text-decoration: none;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+.text-2 {
+  text-decoration: none;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.text-2:hover {
+  color: #009688;
+}
+.approved {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #757575;
+}

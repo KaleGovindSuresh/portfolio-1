@@ -1,0 +1,388 @@
+.golden_temple{
+    /* background-image: url("/Assets/gold_temple.jpg"); */
+    background-image: url("https://media.istockphoto.com/photos/golden-temple-amritsar-picture-id944337566?k=20&m=944337566&s=612x612&w=0&h=oUFxpAHcaBMmXG8biGs9qxnkJfjKU_YBVRFjOH9N4Ms=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gold_head{
+    height: 250px;
+    color: #fff;
+    padding-top: 75px;
+    font-weight: bold;
+    font-size: 32px;
+}
+#golden-id{
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+.span-bar{
+    margin: 0px;
+    padding: 0px;
+}
+.hotel-span{
+    color: #ff9d0d;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline 3px #ff9d0d;
+    border-radius: 10px;
+}
+.hotel-span2{
+    color: #fff;
+    background: rgba(167, 169, 167, 0.6); 
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.round-span {
+    border-radius: 20px;
+    background-color: #FFD580;
+}
+.one-span{
+    background-color: #fff;
+    color: #111;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+.book{
+    border-radius: 10px;
+    width: auto;
+    height: 100px;
+}
+.trip-para1{
+    font-size: 12px;
+}
+.trip-para2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.trip-para3{
+    font-size: 12px;
+}
+.date-para{
+font-size: 12px;
+}
+.date-head{
+    font-size: 18px;
+    font-weight: bold;
+}
+.date-head2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #aaa;
+}
+.date-para2{
+    font-size: 12px;
+}
+.date-book{
+    border-radius: 10px;
+    width: auto;
+    height: 100px;
+}
+
+.btn-search{
+    width: 100%;
+    height: auto;
+    background-color: #ff9d0d;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ff9d0d;
+    font-size: 18px;
+    font-weight: bold;
+}
+.travel-btn{
+   font-weight: bold;
+   font-size: 16px;
+   border-radius: 10px;
+   border: 1px solid #fff;
+}
+/*************************************** navbar part  *******************************/
+#navbarDropdown {
+    text-decoration: none;
+    list-style: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+.nav-link1 {
+    text-decoration: none;
+    color: #000;
+}
+.logo-img {
+    width: auto;
+    height: auto;
+}
+.nav-flights {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+.nav-flights a:hover {
+    border-bottom: 5px solid green;
+    text-decoration: none;
+    color: green;
+}
+.nav-flights a:hover {
+    color: green;
+    text-decoration: none;
+}
+.nav-link-manage {
+    text-decoration: none;
+    color: black;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.nav-link-manage:hover {
+    color: green;
+}
+.nav-check-in {
+    text-decoration: none;
+    color: green;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav-check-in:hover {
+    color: green;
+}
+.fa-calendar-check {
+    font-size: 20px;
+}
+.manage-trip {
+    font-size: 13px;
+    font-weight: 500;
+    border-left: 1px solid #aaa;
+    border-radius: 0%;
+
+}
+.new {
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: brown;
+    color: #fff;
+    padding: 0px 5px 0px 5px;
+}
+.agent-para {
+    font-size: 11px;
+    font-weight: bold;
+    color: #007c5b;
+}
+.save-para {
+    font-size: 10px;
+    color: black;
+}
+.agent {
+    background-color: rgb(238, 249, 247);
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}
+.award-logo {
+    color: #007c5b;
+}
+.award-logo:hover {
+    background-color: #007c5b;
+}
+.sign-in {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 20px 5px 20px;
+    width: 100%;
+    height: auto;
+}
+.agent {
+    padding-left: 30px;
+}
+.wallet {
+    width: 20px;
+    height: auto;
+}
+.wallet:hover {
+    background-color: #007c5b;
+}
+.rupee {
+    width: 20px;
+    height: auto;
+}
+.rupee:hover {
+    color: aqua;
+    cursor: pointer;
+}
+.fa-headset {
+    color: black;
+}
+.fa-headset:hover {
+    color: #007c5b;
+    cursor: pointer;
+}
+/* **********************************************caraousel bar ************************ */
+.button-go {
+    color: yellow;
+}
+
+/************************ best price guranted ****************************************--> */
+.best-1 {
+    width: 100%;
+    height: auto;
+}
+.best-2 {
+    width: 100%;
+    height: auto;
+}
+/******************************************* Best Flight Deals ****************** */
+.flight {
+    border-radius: 10px ;
+}
+.flight:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 2px #aaa;
+}
+.travel-1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 49px;
+    color: #111
+}
+
+.date-para {
+    font-size: 14px;
+    color: rgb(146, 141, 141);
+}
+
+.para-flight {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.para-flight2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.from {
+    font-size: 14px;
+    color: rgb(146, 141, 141);
+}
+
+.money {
+    font-size: 24px;
+    color: rgb(248, 26, 26);
+}
+
+/*********************************** Travel blog *******************************************/
+.travel-div {
+    /* border: 1px solid red; */
+    box-shadow: 1px 1px 1px 1px rgb(219, 215, 215);
+    border-radius: 5px;
+}
+
+.travel-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.travel-para {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(59, 56, 56);
+}
+
+.travel-para2 {
+    font-size: 12px;
+    /* color: rgb(114, 110, 110); */
+}
+
+
+/*********************************** Sign up for Exclusive ************************ --> */
+.sign-up-head {
+    font-size: 24px;
+}
+
+.sign-up-para {
+    font-size: 16px;
+}
+
+.sign-mail {
+    border: 1px solid rgb(217, 211, 211);
+    border-radius: 5px;
+    background-color: rgb(217, 211, 211);
+    color: #aaa;
+    font-size: 12px;
+
+}
+
+.mail-btn {
+    background-color: rgb(251, 80, 7);
+    border-radius: 5px;
+    border: 1px solid rgb(251, 80, 7);
+    color: #fff;
+    margin-left: 100px;
+}
+
+/********************************** About HappyEasyGo ******************************--> */
+.feedback-head {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.feedback-para {
+    font-size: 14px;
+}
+
+.head-faq {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.head-faq2 {
+    font-size: 14px;
+}
+
+.para-faq {
+    font-size: 14px;
+}
+
+/***************************************** footer part  *****************************--> */
+.footer-head {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.foot-para1 {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.foot-img {
+    width: 75%;
+    height: auto;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #fff;
+}
+
+/* font-family: Open Sans,Arial,Helvetica,sans-serif!important;
+font-size: 16px;
+}
+
+body {
+line-height: 1;
+}
+body, html {
+width: 100%;
+font-family: "Open Sans",sans-serif;
+font-size: 14px;
+background: #fff;
+color: #191919; */

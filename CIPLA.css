@@ -1,0 +1,641 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-list {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.nav-list:hover {
+    color: #000;
+}
+.d-block{
+    width: 100%;
+    height: auto;
+}
+/*********************************** Latest at Cipla *******************************/
+.heading-latest {
+    color: rgba(0, 0, 0, .8);
+    font-size: 44px;
+    margin-top: 0;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+.head-cipla {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, .8);
+}
+
+.para-cipla {
+    font-size: 16px;
+    color: rgba(56, 50, 50, 0.8);
+    /* font-family: "Poppins",sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    word-spacing: 4px;
+
+}
+
+.cipla-latest {
+    background-color: rgba(250, 175, 63, 1);
+}
+
+#sec-1 {
+    /* height: 25rem; */
+    height: auto;
+    background-color: rgba(250, 175, 63, 1);
+    padding: 100px;
+    padding-bottom: 0%;
+}
+
+.btn-c1 {
+    padding: 18px 0px 18px 0;
+    width: 13rem;
+    background-color: #005aa5;
+    box-shadow: 0 5px 20px -11px #02273b;
+}
+
+.btn-c1:hover {
+    background-color: rgb(149, 207, 143);
+    border: 1px solid rgb(149, 207, 143);
+}
+
+.fa-arrow-right {
+    margin-left: 81px;
+}
+
+.img-div {
+    height: 100%;
+}
+
+/******************************* Therapies at Cipla ********************************--> */
+.therapies-img {
+    box-shadow: 0 0 20px rgb(105, 104, 104);
+    margin-top: 60px;
+    width: 100%;
+    height: 680px;
+}
+
+#therapy {
+    margin-top: 140px;
+}
+
+.head-therapies {
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.para-therapies {
+    color: #fff;
+    font-size: 16px;
+    background-color: rgba(49, 163, 220, 1) 90%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.para-therapies2 {
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(49, 163, 220, 1) 90%;
+}
+
+.therapy-btn {
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    border: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #005392;
+    box-shadow: 0 5px 20px -11px #02273b;
+}
+
+#therapies::before {
+    content: "";
+    height: 42rem;
+    width: 100vw;
+    /* width: 100%; */
+    position: absolute;
+    background-color: rgba(49, 163, 220, 1) 90%;
+    background-image: linear-gradient(45deg, rgba(116, 199, 169, 1) 0, rgba(116, 199, 169, 1) 28%, rgba(49, 163, 220, 1) 100%);
+    ;
+    animation-name: one;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes one {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/*******************************  Life At Cipla  *******************************/
+.heading-life {
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Poppins",sans-serif; */
+    font-size: 16px;
+    color: #666;
+}
+
+#lifes {
+    height: 100%;
+    box-shadow: 0 5px 20px -11px #02273b;
+    margin: 0 7px;
+}
+
+#life-cipla::before {
+    content: "";
+    height: 27rem;
+    width: 100vw;
+    position: absolute;
+    background-color: #08aeea;
+    background-image: linear-gradient(to bottom, rgba(132, 192, 222, 1), #08aeea 100%);
+    animation-name: two;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes two {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/************************** More Stories *******************************************/
+.more-stories {
+    padding-top: 50px;
+    color: #f5f5f5;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+.more-btn button {
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 18px 0px 18px 0;
+    width: 25%;
+    height: 60%;
+    background-color: #005aa5;
+    box-shadow: 0 5px 20px -11px #02273b;
+    border: 1px solid #005aa5;
+    border-radius: 50px;
+}
+
+.more-stories .more-btn :hover {
+    background-color: rgb(149, 207, 143);
+    animation-timing-function: calc(3s, 5s);
+    border: 1px solid rgb(149, 207, 143);
+}
+
+/************************** Investor Centre ****************************************/
+.span-bse {
+    background-color: #b6b1b1;
+    border-radius: 5px;
+    border: 1px solid #b6b1b1;
+}
+
+.span-bse1:hover {
+    background-color: #b6b1b1;
+    border-radius: 5px;
+    border: 1px solid #b6b1b1;
+}
+
+.inr {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.e-inr {
+    font-size: 12px;
+}
+
+.inr2 {
+    font-size: 18px;
+    color: #107d58;
+    font-weight: 600;
+}
+
+.year-span1 {
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+.year-span:hover {
+    border-radius: 5px;
+    background-color: #aaa;
+}
+
+.quotes {
+    font-size: 14px;
+    color: #0a7ddc;
+    cursor: pointer;
+}
+
+.small-quotes {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.para-quotes {
+    color: #aaa;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Poppins",sans-serif; */
+}
+
+.stock {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.stock-p {
+    font-size: 26px;
+    color: #aaa;
+}
+
+.display {
+    font-size: 40px;
+    color: #666;
+}
+
+.heading-press {
+    font-size: 14px;
+    color: #000;
+}
+
+.cipla-ltd {
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+
+.img-invest {
+    border: 1px solid blue;
+    border-radius: 100px;
+    width: 10%;
+}
+
+.invest1 {
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.latest-release {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.release {
+    cursor: pointer;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.release:hover {
+    color: #337ab7;
+    border-bottom: 1px solid #000;
+}
+
+.heading-press {
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.heading-resources {
+    cursor: pointer;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.heading-presentation {
+    cursor: pointer;
+    padding: 30px 0;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 1;
+    color: #005392;
+    border-color: #ddd;
+    border-top: 1px solid rgba(0, 0, 0, .8);
+    border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
+
+.report {
+    cursor: pointer;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+    color: #005392;
+    border-color: #ddd;
+    border-bottom: 1px solid rgba(0, 0, 0, .8);
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    border: #9f9f9e 1px solid;
+    border-radius: 4px;
+
+}
+
+.report:hover {
+    background-color: #337ab7;
+    color: #FFF;
+}
+
+.view-all {
+    padding: 20px 0;
+    cursor: pointer;
+    border: none;
+    /* border-bottom: 1px solid #005392;  */
+    font-weight: 500;
+    color: #005392;
+    font-size: 13px;
+}
+
+/* .view-all:hover{
+    border-bottom: 1px solid #005392;
+} */
+/******************************Employee Stories***********************************/
+.car-t {
+    border-radius: 0;
+    box-shadow: 0 0 20px rgb(170, 169, 169);
+}
+
+.employee {
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+    color: rgba(14, 13, 13, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 170px;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+.employee-para {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 600;
+}
+
+.rounded-img {
+    padding-top: 30px;
+    display: inline-flex;
+}
+
+.up-arrow {
+    position: absolute;
+    width: 22px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 150px;
+}
+
+.impress-para {
+    color: #337ab7;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+.dr {
+    margin-left: 210px;
+    padding-top: 20px;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8);
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.ipd {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(14, 13, 13, 0.8)
+}
+
+.my-join {
+    border: 1px solid #005aa5;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #005aa5;
+}
+
+.my-join:hover {
+    background-color: rgb(149, 207, 143);
+    animation-timing-function: calc(3s, 5s);
+    border: 1px solid rgb(149, 207, 143);
+}
+
+.round-img img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.more-btn {
+    margin-left: 190px;
+    margin-top: 50px;
+    transition: all .34s;
+}
+
+.more-btn :hover {
+    background-color: rgb(98, 156, 98);
+}
+
+/************************** cipla foundation*******************************************/
+
+#cipla-found {
+    /* padding: 120px;  */
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: #f5f5f5;
+    margin-top: 100px;
+}
+
+.head-foundation {
+    color: #000;
+    font-weight: bold;
+    font-size: 44px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Poppins",sans-serif; */
+}
+
+.para-foundation {
+    color: rgb(59, 57, 57);
+    font-size: 16px;
+    word-spacing: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Poppins",sans-serif; */
+}
+
+.foundation {
+    padding: 80px;
+    padding-top: 140px;
+}
+
+.foundation-img {
+    width: auto;
+    height: 600px;
+}
+
+/************************** cipla foundation*******************************************/
+.azadi-img {
+    width: 100%;
+    height: auto;
+}
+
+.azadi-para {
+    font-size: 16px;
+    color: #666;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+.twitter {
+    width: 8%;
+    height: auto;
+}
+
+/* .cipla-glo {
+
+} */
+.cipla-found {
+    background-color: #fff;
+    border: 1px solid red;
+}
+
+.card-link1 {
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Poppins",sans-serif; */
+    font-size: 12px;
+}
+
+.card-link1:hover {
+    border-bottom: 1px solid #000;
+}
+
+.abc {
+    content: "";
+    height: 27rem;
+    width: 100vw;
+    position: absolute;
+    margin-top: 80px;
+    background-color: #08aeea;
+    background-image: linear-gradient(to bottom, rgba(132, 192, 222, 1), #08aeea 100%);
+    animation-name: two;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    z-index: -1;
+}
+
+@keyframes two {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+
+}
+
+/************************** footer part*******************************************/
+.footer {
+    position: relative;
+    background-color: #005392;
+    text-decoration: none;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.foot-head {
+    text-decoration: none;
+    color: #b6b1b1;
+    margin: 0;
+    cursor: pointer;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.foot {
+    text-decoration: none;
+    color: #b6b1b1;
+    margin: 0;
+    cursor: pointer;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.foot-head:hover {
+    text-decoration: none;
+    position: absolute;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .8);
+}
+
+.foot:hover {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, .8);
+}

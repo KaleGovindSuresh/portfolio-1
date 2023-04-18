@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OLX</title>
+  <link rel="stylesheet" href="/Assets/bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald:wght@200&family=Roboto:wght@100;300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/Template/olx.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+<style>
+    #mybtn{
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 200px;
+        height: 100px;
+        background-color: #757575;
+        padding: 10px;
+        border:1px solid #000;
+    }
+</style>
+
+</head>
+
+<body>
+    <!-- <button id="myElement">
+        Click Me
+    </button >
+    <script>
+      const myElement = document.getElementById('myElement');
+
+             myElement.onmouseover = function() {
+                 alert('You are hovering over the element!');
+         };
+    </script> -->
+  
+    <header class="head p-0">
+        <div class="container-fluid pt-2">
+          <div class="row">
+            <div class="col-2 col-md-1">
+              <img class="logo-img ps-2 pt-2 pb-2 pe-0" src="/Assets/olx-logo.png" alt="">
+            </div>
+            <div class="col-5 col-md-3">
+              <select class="select" name="India" id="State">
+                <optgroup class="label" label="Recent Location"></optgroup>
+                <option class="value" value="Kerala">India</option>
+                <optgroup class="label" label="Popular Location"></optgroup>
+                <option class="value" value="Kerala">Kerala</option>
+                <option class="value" value="Tamil Nadu">Tamil Nadu</option>
+                <option class="value" value="Punjab">Punjab</option>
+                <option class="value" value="Maharashtra">Maharashtra</option>
+              </select>
+            </div>
+            <div class="col-5 col-md-5">
+              <div class="input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 amber-border" type="text"
+                  placeholder="Find Cars, Mobile Phones and More..." aria-label="Search">
+                <div class="input-group1-append" style="background-color: #002f34;">
+                  <span class="input-group-text amber lighten-3 " id="basic-text1"
+                    style="background-color: #002f34; border: 1px solid #002f34; ">
+                    <i class="fas fa-search text-white pt-2" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 p-2">
+              <select class="lang">
+                <!-- <i class="fas fa-chevron-down"></i> -->
+                <option class="value" value="English">ENGLISH</option>
+                <option class="value" value="Hindi">हिंदी</option>
+              </select>
+            </div>
+            <div class=" col-md-1 p-2 pe-0 ps-0">
+              <a class="log-in" href="#">Login</a>
+            </div>
+            <div class="col-md-1 pt-3 pb-3">
+              <a class="sell p-2" href="#"> +SELL</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- ------------------------------------header2-----------------------------------------  -->
+    <section>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <select class="lang-1">
+                <!-- <i class="fas fa-chevron-down"></i> -->
+                <option class="value-1" value="English">ALL CATEGORIES</option>
+                <option class="value" value="Hindi">Cars</option>
+                <option class="value" value="Hindi">Motorcycles</option>
+                <option class="value" value="Hindi">Mobile Phones</option>
+                <option class="value" value="Hindi">For Sale: Houses & Apartments</option>
+                <option class="value" value="Hindi">Scooters</option>
+                <option class="value" value="Hindi">Commercial & Other Vehicles
+                </option>
+                <option class="value" value="Hindi">For Rent: Houses & Apartments</option>
+              </select>
+            <!-- <a class="navbar-brand" href="#">ALL CATEGORIES</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link">Cars</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Motorcycles</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mobile Phones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">For Sale: Houses & Apartments</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Scooters</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Commercial & Other Vehicles</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">For Rent: Houses & Apartments</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    <!-- -------------------------- --image div---------------------------------------  -->
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <nav class="img-nav ps-5">
+                    <button class="btn-sell-car m-0" for="submit">Sell Car</button>
+                  </nav>
+            </div>
+           
+        </div>
+      </div>
+      <!--********************* Based on your last search******************************* -->
+<div class="container-fluid pt-3">
+    <div class="container" style="background-color: #ebeeef;">
+        <div class="row">
+            <div class="last-search d-flex">
+                <span class="fresh-1">Based on your last search</span>
+                <span class="search-span">View More</span>
+            </div>
+            <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active"> -->
+                    <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                        <div class="item">
+                            <span class="featured">featured</span>
+                            <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                            <figure class="search-img">
+                                <img src="https://apollo-singapore.akamaized.net/v1/files/gaytc43s36bz2-IN/image;s=300x600;q=60"   alt="" />
+                            </figure>
+                            <div class="wrapper">
+                                <h3>₹ 35,000</h3>
+                                <p>Macbook pro Core I7 4th gen 16gb</p>
+                                <div class="item-address">
+                                    <span class="date-span">AUG 2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                        <div class="item">
+                            <span class="featured">featured</span>
+                            <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                            <figure class="search-img">
+                                <img src="https://apollo-singapore.akamaized.net/v1/files/kudm4n2cb4vd2-IN/image;s=300x600;q=60"  alt="" />
+                            </figure>
+                            <div class="wrapper">
+                                <h3>₹ 6,500</h3>
+                                <p>Washing Machine/Fridge/Ac</p>
+                                <div class="item-address">
+                                    <span>AUG 5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                        <div class="item">
+                            <span class="featured">featured</span>
+                            <span class="hearts"><i class="fa-regular fa-heart"></i></span>
+                            <figure class="search-img">
+                                <img src="https://apollo-singapore.akamaized.net/v1/files/0vpy8rek1ou53-IN/image;s=300x600;q=60"  alt="" />
+                            </figure>
+                            <div class="wrapper">
+                                <h3>₹ 10000 - 12000 | Monthly</h3>
+                                <p>Required Business Executive</p>
+                                <div class="item-address">
+                                    <span>AUG 8</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                        <div class="item">
+                            <span class="featured">featured</span>
+                            <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                            <figure class="search-img">
+                                <img src="https://apollo-singapore.akamaized.net/v1/files/udmqoflr3w7i-IN/image;s=300x600;q=60"  alt="" />
+                            </figure>
+                            <div class="wrapper">
+                                <h3>₹ 4,500</h3>
+                                <p>Bluetooth Speaker</p>
+                                <div class="item-address">
+                                    <span>AUG 8</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  <!-- </div>
+                </div> 
+                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
+        </div>
+    </div>
+</div>
+<!-- Fresh recommendations -->
+  <div class="container-fluid">
+    <div class="container" style="background-color: white;">
+        <div class="row">
+            <h2 class="fresh" style="text-align: left;">Fresh recommendations</h2>
+            <div class="col-6 col-md-4 col-lg-3 p-3 ps-0 pe-0">
+                <div class="item">
+                    <span class="featured">featured</span>
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img" src="https://apollo-singapore.akamaized.net/v1/files/ovj7f37f0nio-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper">
+                        <h3>₹ 36,99,999</h3>
+                        <h5>3 Bds - 3 Ba - 1350 ft2</h5>
+                        <p>Best luxurious bungalows in bilaspur</p>
+                        <div class="item-address">
+                            <span>GULAB NAGAR, BILASPUR</span>
+                            <span>MAY 26</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <span class="featured">featured</span>
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/gyx8ixctc3cq3-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper">
+                        <h3>₹ 39,000</h3>
+                        <h5>2019 - IOS</h5>
+                        <p>Iphone xr 64 gb white color good condition</p>
+                        <div class="item-address">
+                            <span>SECTOR 34A, CHANDIGARH</span>
+                            <span>MAY 29</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/ynbf61u2qq071-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 5,50,000</h3>
+                        <h5>2017 - 21600.0km</h5>
+                        <p>Toyota Etios Liva 1.2 G, 2017, Petrol</p>
+                        <div class="item-address">
+                            <span>HIREMATH LAYOUT, BENGALURU</span>
+                            <span>APR 09</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"><i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/0h211zpxo2x11-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 5,50,000</h3>
+                        <h5>2017 - 21600.0km</h5>
+                        <p>Toyota Etios Liva 1.2 G, 2017, Petrol</p>
+                        <div class="item-address">
+                            <span>HIREMATH LAYOUT, BENGALURU</span>
+                            <span>APR 09</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <span class="featured">featured</span>
+                    <span class="hearts"><i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/z2fqs1rqqjl4-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper">
+                        <h3>₹ 5,50,000</h3>
+                        <h5>2017 - 21600.0km</h5>
+                        <p>Toyota Etios Liva 1.2 G, 2017, Petrol</p>
+                        <div class="item-address">
+                            <span>HIREMATH LAYOUT, BENGALURU</span>
+                            <span>APR 09</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item-blue" style="border: 1px solid #0e040533;">
+                    <h6 class="blue-head p-2">Want to see your stuff here?</h6>
+                    <span class="blue-para p-2">Make some extra cash by selling things in your community. Go on, it's
+                        quick and easy.</span>
+                    <div class="button"><button class="button-1 p-2">Start selling</button></div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <span class="featured ">featured</span>
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="image-7"
+                            src="https://apollo-singapore.akamaized.net/v1/files/6e83h8fhr5m43-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper">
+                        <h3>₹ 15,000</h3>
+                        <!-- <h5></h5> -->
+                        <p>Shop for rent in Samudrapur</p>
+                        <div class="item-address">
+                            <span>SAMUDRAPUR, MAHARASHTRA</span>
+                            <span>4 DAYS AGO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/0150adyrnom12-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 3,500</h3>
+                        <!-- <h5></h5> -->
+                        <p>RD6 LED projector 3d 4k wifi smart youtube live tv usb hdmi 154 inchs</p>
+                        <div class="item-address">
+                            <span>PUNE, MAHARASHTRA</span>
+                            <span>JUNE 17</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/lp2t83lg7j1e1-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 1,000</h3>
+                        <!-- <h5></h5> -->
+                        <p>Rs 650 Only (Free Delivery + Cash On Delivery)</p>
+                        <div class="item-address">
+                            <span>AMRAVATI, MAHARASHTRA</span>
+                            <span>JUNE 10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"><i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/moo4y068lsae-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 350</h3>
+                        <!-- <h5></h5> -->
+                        <p>Stylish Retro Men Shirts (free delivery and cod available)</p>
+                        <div class="item-address">
+                            <span>AMRAVATI, MAHARASHTRA</span>
+                            <span>JUNE 8</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img
+                            src="https://apollo-singapore.akamaized.net/v1/files/m5k8anbi8c573-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 699</h3>
+                        <!-- <h5></h5> -->
+                        <p>अपना नंबर भेजे Branded quality earbuds at fix price.Best music</p>
+                        <div class="item-address">
+                            <span>AMRAVATI, MAHARASHTRA</span>
+                            <span>YESTERDAY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/y2tpshtu3ioc1-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 399</h3>
+                        <!-- <h5></h5> -->
+                        <p>New vegetable chopper</p>
+                        <div class="item-address">
+                            <span>SAMUDRAPUR, MAHARASHTRA</span>
+                            <span>3 DAYS AGO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/19a1d60nyasw2-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 1,700</h3>
+                        <!-- <h5></h5> -->
+                        <p>Antique maritime victoria Pocket watch london 1915 With leather case</p>
+                        <div class="item-address">
+                            <span>MUMBAI, MAHARASHTRA</span>
+                            <span>JUNE 4</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- **************** -->
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"><i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/aphhqc18jn5m2-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 2,800</h3>
+                        <!-- <h5></h5> -->
+                        <p>Title - Antique Brass Maritime Stand Telescope 1915</p>
+                        <div class="item-address">
+                            <span>PUNE, MAHARASHTRA</span>
+                            <span>MAY 28</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/zcp0eo8nlii11-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 1,00,000</h3>
+                        <!-- <h5></h5> -->
+                        <p>Canon 5d Mark iii</p>
+                        <div class="item-address">
+                            <span>Narhe, MAHARASHTRA</span>
+                            <span>MAY 30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/i0dgoi3rd0m02-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 1,700</h3>
+                        <!-- <h5></h5> -->
+                        <p>Antique maritime victoria Pocket watch london 1915 With leather case</p>
+                        <div class="item-address">
+                            <span>MUMBAI, MAHARASHTRA</span>
+                            <span>MAY 18</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <span class="featured">featured</span>
+                    <span class="hearts"><i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/nq4zonjkzola3-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper">
+                        <h3>₹ 22,600</h3>
+                        <!-- <h5></h5> -->
+                        <p>4K 3D 5500 LM ANDROID WIFI BLUETOOTH DLP PROJECTOR </p>
+                        <div class="item-address">
+                            <span>PUNE, MAHARASHTRA</span>
+                            <span>MAY 30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/riy7onxhkr2k2-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 599</h3>
+                        <!-- <h5></h5> -->
+                        <p>Bluetooth Buds</p>
+                        <div class="item-address">
+                            <span>MUMBAI, MAHARASHTRA</span>
+                            <span>MAY 22</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 p-3 pe-1">
+                <div class="item">
+                    <!-- <span class="featured">featured</span> -->
+                    <span class="hearts"> <i class="fa-regular fa-heart"></i> </span>
+                    <figure class="search-img">
+                        <img class="home-img"
+                            src="https://apollo-singapore.akamaized.net/v1/files/wi2oqs513ezf1-IN/image;s=300x600;q=60"
+                            alt="" />
+                    </figure>
+                    <div class="wrapper-1">
+                        <h3>₹ 2,80,000</h3>
+                        <!-- <h5></h5> -->
+                        <p>LUDHIANA 8500 to 1,20,000Sqft Modern WAREHOUSE</p>
+                        <div class="item-address">
+                            <span>TRANSPORT NAGAR, LUDHIANA</span>
+                            <span>JUN 01</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding:90px pt-3 pb-3">
+    <div class="center-button">
+        <button class="load-more p-3">Load More</button>
+    </div>
+</div>
+<div class="container-fluid bg-light">
+    <!-- <div class="container"> -->
+    <div class="row">
+        <div class="col col-sm-12  col-lg-6" style="padding-top: 100px;">
+            <div class="foot-img">
+                <img src="https://statics.olx.in/external/base/img/phone-app.webp" alt="">
+            </div>
+        </div>
+        <div class="col col-sm-6 col-lg-3 ps-5" style="padding-top: 100px;">
+            <div class="footer-head" style="border-right: 2px solid #757575;">
+                <h3 class="footer-heading">TRY THE OLX APP</h3>
+                <p class="footer-para">Buy, sell and find just about anything using the app on your mobile.</p>
+            </div>
+        </div>
+        <div class="col col-sm-6  col-lg-3" style="padding-top: 100px;">
+            <div class="footer">
+                <h6 class="footer-heading2 pb-3">GET YOUR APP TODAY</h6>
+                <img class="footer-img" src="https://statics.olx.in/external/base/img/appstore_2x.webp" alt="">
+                <img class="footer-img" src="https://statics.olx.in/external/base/img/playstore_2x.webp" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- footer part  -->
+<footer>
+    <div class="container-fluid pt-4 pb-4" style="background-color: #ebeeef;">
+        <!-- <div class="container"> -->
+        <div class="row ps-5">
+            <div class="col col-sm-6 col-md-2">
+                <h4 class="head-footer1">POPULAR LOCATIONS</h4>
+                <span class="span-1">Kolkata</span><br>
+                <span class="span-1">Mumbai</span><br>
+                <span class="span-1">Chennai</span><br>
+                <span class="span-1">Pune</span>
+            </div>
+            <div class="col col-sm-6 col-md-2">
+                <h4 class="head-footer1">TRENDING LOCATIONS</h4>
+                <span class="span-1">Bhubaneshwar</span><br>
+                <span class="span-1">Hyderabad</span><br>
+                <span class="span-1">Chandigarh</span><br>
+                <span class="span-1">Nashik</span>
+            </div>
+            <div class="col col-sm-6 col-md-2">
+                <h4 class="head-footer1">ABOUT US</h4>
+                <span class="span-1">About OLX Group</span><br>
+                <span class="span-1">Careers</span><br>
+                <span class="span-1">Contact Us</span><br>
+                <span class="span-1">OLXPeople</span>
+                <span class="span-1">Waah Jobs</span>
+            </div>
+            <div class="col col-sm-6 col-md-3 ">
+                <h4 class="head-footer1">OLX</h4>
+                <span class="span-1">Help</span><br>
+                <span class="span-1">Sitemap</span><br>
+                <span class="span-1">Legal & Privacy information</span><br>
+                <span class="span-1">Blog</span>
+            </div>
+            <div class="col col-sm-6 col-md-3">
+                <h4 class="head-footer1">FOLLOW US</h4>
+                <div class="social">
+                    <!-- Facebook -->
+                    <i class="fab fa-facebook-f p-1"></i>
+                    <!-- Twitter -->
+                    <i class="fab fa-twitter p-1"></i>
+                    <!-- Instagram -->
+                    <i class="fab fa-instagram p-1"></i>
+                    <!-- Youtube -->
+                    <i class="fab fa-youtube p-1"></i>
+                </div>
+                <div class="playstore pt-5">
+                    <img src="https://statics.olx.in/external/base/img/playstore.webp" alt="">
+                    <img src="https://statics.olx.in/external/base/img/appstore.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid pb-3" >
+        <div class="row">
+            <div class="country pt-3 pb-3" style="background-color: #002f34;">
+                <div class="col-6 col-md-8 ps-3">
+                    <div class="Pak text-light">
+                        <span class="span-ind text-light">Other Countries</span>
+                        <span class="span-ind text-light">Pakistan-South Africa-Indonesia</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 ps-5">
+                    <div class="India">
+                        <span class="span-ind text-light">Free Classifieds in India</span>
+                        <span class="span-ind text-light">.&#169;2006-2022 OLX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/Bootstrap-source/bootstrap-5.0.2/dist/js/bootstrap.min.js "></script>
+</body>
+
+</html>

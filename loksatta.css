@@ -1,0 +1,549 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+.date {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    padding-left: 120px;
+    padding-right: 0px;
+  }
+.language {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+.head {
+    justify-content: space-between;
+}
+.lang-span {
+  color: #757575;
+  cursor: pointer;
+}
+.lang-span:hover {
+  color: #dc0505;
+}
+.logo-img {
+    width: 100%;
+    height: auto;
+}
+.logo {
+    justify-content: space-between;
+}
+.nav-bar {
+    justify-content: space-between;
+}
+.nav-span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+.nav-span-1 {
+    color:#0078c8;
+    background-color: #fff;
+    border-radius: 4.8125rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.sub-head {
+justify-content: center;
+position: relative;
+cursor: pointer;
+}
+.sub {
+    font-size: 12px;
+    color: #dc0505;
+}
+.sub-span {
+    border-radius: 15px;
+    padding: 3px 15px;
+    border: 1px solid #aaa;
+    font-size: 12px;
+    cursor: pointer;
+}
+.sub-span:hover {
+  color: #dc0505;
+}
+.sign-1 {
+  color: #757575;
+  font-size: 14px;
+  font-weight: none;
+}
+
+/*********************************  main div ******************************************/
+
+.title-news::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      #000
+    );
+  }
+  .title-news-heading {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.5em;
+    z-index: 22;
+    font-weight: bold;
+  }
+  .title-span {
+    background-color: #dc0505;
+    border-radius: 4.8125rem;
+    border: 1px solid #dc0505;
+    font-size: 12px;
+  }
+
+
+  .sub-img {
+    width: 50%;
+  }
+
+  .para-sub {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+  }
+  .para-sub:hover {
+    color: #dc0505;
+  }
+  .paragraph-1 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .paragraph-1:hover {
+    color: #dc0505;
+  }
+  .add-head {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .add-para {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .para-new {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .para-new:hover {
+    color: #dc0505;
+  }
+
+  .img-satta {
+    width: 100%;
+    height: auto;
+  }
+  .para-ankhi {
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+  }
+  .arrow {
+    color: #dc0505;
+    cursor: pointer;
+    content: "";
+    background: url(/wp-content/themes/ie-network-theme/assets/build/css/../src/img/arrow.svg) no-repeat;
+    width: 0.8125rem;
+    height: 0.625rem;
+    margin-top: 0.125rem;
+    transition: .3s ease-out;
+    display: inline-block;
+    position: relative;
+    left: 0.625rem;
+
+  }
+  .arrow:hover {
+    margin-left: 5px;
+  }
+
+  .empty-span {
+    padding: 10px;
+    border: 10 px solid red;
+  }
+.latest-new {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+}
+  .underline {
+    border: 1px solid #000;
+
+  }
+
+  /* <!--************************************************** फोटो गॅलरी ********************************************--> */
+  .photo-gallary {
+    color: #fff;
+  }
+  .gallary-head {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .gallary-head:hover {
+    color:#fff;
+    /* background-color: #dc0505; */
+  }
+  .gallary-span {
+    background-color: #fff;
+    color: #aaa;
+    border: 1px solid #aaa;
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .gallary-span:hover {
+    color: #fff;
+    background-color: #dc0505;
+    border: 1px solid #dc0505;
+  }
+.underline-gallary {
+  border: 1px solid #fff;
+}
+  .gallary-img {
+    width: 100%;
+    height: auto;
+  }
+  .gallary-para {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .gallary-para:hover{
+    color: #dc0505;
+  }
+  .gallary-button {
+    background-color: #dc0505;
+    border-radius: 4.8125rem;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  /* <!--******************************************** मनोरंजन  ********************************************** --> */
+.joy-img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.joy-para {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+}
+.joy-para:hover {
+  color: #dc0505;
+}
+.joy-img-1 {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.joy-para-1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+}
+.joy-para-1:hover {
+  color: #dc0505;
+}
+
+
+/* <!--******************************************* विश्लेषण  ************************************************ --> */
+.vish-img {
+  width: 25%;
+  height: auto;
+}
+.img-vish {
+  width: 100%;
+  height: auto;
+}
+.vish-para {
+  font-weight: bold;
+  font-size: 22px;
+  color: #000;
+  cursor: pointer;
+}
+.vish-para:hover {
+  color: #dc0505;
+}
+.vacha-img1 {
+  width: 70%;
+  height: auto;
+}
+/* .vacha-para {
+
+} */
+.hr {
+  text-decoration: dotted;
+  margin: 18px;
+  margin-right: 16px;
+  width: 90%;
+}
+.vacha-para1:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+
+
+/* <!--*********************** महाराष्ट्र *****************************************--> */
+.maha-img {
+  width: 100%;
+  height: auto;
+}
+.maha-para {
+  font-weight: bold;
+  font-size: 17px;
+  color: #000;
+}
+.maha-para:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+.maha-img1{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.maha-para1 {
+  font-weight: bold;
+  font-size: 15px;
+  color: #000;
+}
+.maha-para1:hover {
+  cursor: pointer;
+  color: #dc0505;
+}
+.latest-new:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+/* <!--********************************** देश-विदेश*-******************************** --> */
+
+/* <!--********************************** राशि वृत्त*-******************************** --> */
+
+/* <!--********************************** क्रीडा*-******************************** --> */
+
+
+/* <!--********************************** वेब स्टोरीज******************************** --> */
+.web {
+  background-color: #aaa;
+}
+.web-story {
+  /* border-radius: 10px red; */
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+.web-span {
+  border: 1px solid #fff;
+    border-radius: 15px;
+    color: #aaa;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.web-span:hover {
+  background-color: #dc0505;
+  border: 1px solid #dc0505;
+  color: #fff;
+}
+
+.web-img {
+  width: 100%;
+  height: auto;
+}
+/**************************** वीडियो*********************** */
+.video-head {
+  color: #fff;
+}
+.video-head:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+.underline-1 {
+  border: 1px solid #fff;
+}
+.para-paha {
+  color: #fff;
+}
+
+
+/* <!--********************************* मुंबईच्या बातम्या ******************************--> */
+.mumbai {
+  font-size: 18px;
+  color: #000;
+}
+.news-head:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+.mumbai-span {
+  border: 1px solid #aaa;
+    border-radius: 15px;
+    padding: 5px 20px;
+    color: #000;
+    font-size: 14px;
+}
+.mumbai-img {
+  width: 100%;
+  height: auto;
+}
+.img-mumbai {
+  width: 90%;
+  height: auto;
+}
+.mumbai-para {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mumbai-para:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+.mumbai-p {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.mumbai-p:hover {
+  cursor: pointer;
+  color: #dc0505;
+}
+.sampadik {
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px;
+}
+.sampadik:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+.sampadik-img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+.sampadik-para {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.sampadik-para:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+.sampadik-span {
+  cursor: pointer;
+  color: #dc0505;
+}
+.para-sampa {
+  /* width: 80%; */
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+
+/* <!--******************************** लाइफस्टाइल *********************************--> */
+.life-img {
+  width: 100%;
+  height: auto;
+}
+.life-sub-img {
+  width: 100%;
+  height: auto;
+}
+.life-para {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer; 
+}
+.life-para:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+.life-sub-para {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer; 
+}
+.life-sub-para:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+
+/* <!--******************* ऑटो   ****************************  तंत्रज्ञान *******************--> */
+.auto-img {
+  width: 100%;
+  height: auto;
+}
+.auto-para:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+
+/* <!--************** अग्रलेख ******** अन्वयार्थ *******व्यक्तिवेध ******विशेष   **********--> */
+.gst-img {
+  width: 85%;
+  height: auto;
+}
+.gst-para:hover {
+  color: #dc0505;
+  cursor: pointer;
+}
+
+
+/******************************** Footer Part *******************************/
+.footer{
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+.top-head {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.social-fb {
+  width: 100%;
+  height: auto;
+}
+.express-span {
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+.copyright {
+  color: #aaa;
+  font-size: 12px;
+}
+.copyright-img {
+  width: 75%;
+}
